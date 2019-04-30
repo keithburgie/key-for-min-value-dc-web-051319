@@ -13,5 +13,5 @@ def key_for_min_value(name_hash)
       keyArray.push(key)
     end
   end
-  puts keyArray[0]
+  keyArray[0]
 end
