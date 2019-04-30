@@ -1,5 +1,7 @@
 def key_for_min_value(name_hash)
-  name_hash.empty?
+  if name_hash.empty?
+    return nil
+  end
   keyArray = []
   valueArray = [name_hash.first[1]]
   
