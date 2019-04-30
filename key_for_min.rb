@@ -1,4 +1,5 @@
 def key_for_min_value(name_hash)
+  name_hash.empty
   keyArray = []
   valueArray = [name_hash.first[1]]
   
